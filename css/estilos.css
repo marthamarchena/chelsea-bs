@@ -1,0 +1,446 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+.grilla {
+    display: grid;
+    grid-template-areas: 
+    "header "
+    "main "
+    "footer ";
+    grid-template-rows: 120px auto 100px;
+    grid-template-columns: 100%;
+}
+
+.fondo {
+    background: rgb(0, 0, 0);
+    color: white;
+}
+
+.sans {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    font-size: 20px;
+}
+
+.link {
+    text-decoration: none;
+    padding: 10px;
+}
+
+.button {
+    background-color: rgb(141, 105, 5);
+    color: white;
+    width: 150px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 30px;
+    border-style: none;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    height: 100px;
+    position: fixed;
+    right: 0;
+    top: 150px;
+    box-shadow: inset 0px 1px 0px #827066, 0px 3px 0px #19120f, 0px 6px 3px #382e29;
+}
+
+.boton2 {
+    color: white;
+    background-color: rgb(83, 83, 83);
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 20px;
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+}
+
+.encabezado {
+    width: 600px;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+
+.contacto {
+/* formulario de contacto */
+    width: auto;
+    height: auto;
+    margin: auto;
+    display: flex;
+}
+
+.promociones {
+    width: 600px;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+
+.cervezas {
+    width: 600px;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+
+.titulos {
+    width: 600px;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.contenedor_header {
+    display: flex;
+    padding-right: 15px;
+    background-color: #ffffff;
+    grid-area: header;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    align-items: center
+}
+
+.logo {
+    display: flex;
+    padding-left: 60px;
+    padding-top: 10px;
+    align-items: center;
+    align-content: center;
+    height: 100px;
+}
+
+.grid_main {
+    grid-area: main;
+}
+
+.banner {
+    background-image: url(../Imagenes/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+}
+
+.footer {
+    grid-area: footer;
+    display: flex;
+    border-top: 1px;
+    border-color: #ffffff;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    justify-content: center;
+}
+
+.direccion {
+    justify-content: center;
+    align-content: center;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 20px;;
+    padding: 30px;
+    margin: auto;
+}
+
+.redes1 {
+    display: flex;
+    padding: 25px;
+    justify-content: center;
+    align-items: center;
+}
+.redes2 {
+    display: flex;
+    padding: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor_arepas {
+    display: grid;
+    grid-template-rows: repeat(auto-fill,1fr);
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: auto;
+    padding-left: 100px;
+    padding-right: 150px;
+    padding-bottom: 20px;
+    justify-content: center;
+}
+
+.contenedor_burger {
+    display: grid;
+    grid-template-rows:repeat(auto-fill,1fr);
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: auto;
+    padding-left: 100px;
+    padding-right: 150px;
+    padding-bottom: 20px;
+    grid-auto-rows: auto;
+    justify-content: center;
+}
+
+.contenedor_sandw {
+    display: grid;
+    grid-template-rows: repeat(auto-fill, 1fr);
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    margin: auto;
+    padding-left: 100px;
+    padding-right: 150px;
+    padding-bottom: 20px;
+    grid-auto-rows: auto;
+}
+
+.contenedor_ensalada {
+    display: grid;
+    grid-template-rows: 250px;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    margin: auto;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 20px;
+    grid-auto-rows: auto;
+}
+
+.menu_item {
+    color: white;
+    padding: 10px;
+    margin: 1px;
+    align-content: center;
+    text-align: center;
+    width: auto;
+}
+
+.menu_item:nth-child(7) {
+    grid-column: 1/4;
+}
+
+.titulos_menu {
+    font-size: 20px;
+}
+
+.precios_menu {
+    margin-top: 15px;
+}
+
+.descripcion_menu{
+    text-align: center;
+    margin-top: 5px;
+}
+
+.img_menu {
+    width: 100px;
+    height: 100px;
+}
+
+.contenedor_cervezas {
+    display: grid;
+    grid-template-rows: repeat(auto-fill,1fr);
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: auto;
+    padding-left: 100px;
+    padding-right: 150px;
+    padding-bottom: 20px;
+    justify-content: center;
+}
+.td_contacto {
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    font-family:'Alegreya Sans SC', sans-serif;
+}
+.banner_promo {
+    width: 600px;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+
+@media only screen and (max-width:480px) {
+.grilla {
+    display: grid;
+    grid-template-areas: 
+    "header "
+    "main "
+    "footer ";
+    grid-template-rows: 120px auto 100px;
+    grid-template-columns: 100%;
+}
+
+.button {
+    background-color: rgb(141, 105, 5);
+    color: white;
+    width: 80px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 20px;
+    border-style: none;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    height: 70px;
+    position: fixed;
+    right: 0;
+    top: 150px;
+    box-shadow: inset 0px 1px 0px #827066, 0px 3px 0px #19120f, 0px 6px 3px #382e29;
+}
+
+.encabezado {
+    width: 400px;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+
+.contenedor_header {
+    display: flex;
+    padding-right: 5px;
+    background-color: #ffffff;
+    grid-area: header;
+}
+
+.sans {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    font-size: 15px;
+}
+
+.logo {
+    display: flex;
+    padding-left: 20px;
+    padding-top: 15px;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    align-items: center;
+}
+
+.titulos {
+    width: 400px;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.contenedor_arepas {
+    display: grid;
+    grid-template-rows: repeat(auto-fill,1fr);
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: auto;
+    padding-left: 70px;
+    padding-right: 90px;
+    padding-bottom: 20px;
+    justify-content: center;
+}
+
+.contenedor_burger {
+    display: grid;
+    grid-template-rows:repeat(auto-fill,1fr);
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+    padding-left: 70px;
+    padding-right: 90px;
+    padding-bottom: 20px;
+    grid-auto-rows: auto;
+    justify-content: center;
+}
+
+.contenedor_sandw {
+    display: grid;
+    grid-template-rows: repeat(auto-fill, 1fr);
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    margin: auto;
+    padding-left: 70px;
+    padding-right: 90px;
+    padding-bottom: 20px;
+    grid-auto-rows: auto;
+}
+
+.contenedor_ensalada {
+    display: grid;
+    grid-template-rows: 250px;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    margin: auto;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 20px;
+    grid-auto-rows: auto;
+}
+
+.menu_item {
+    color: white;
+    padding: 10px;
+    margin: 1px;
+    align-content: center;
+    text-align: center;
+    width: auto;
+}
+
+.titulos_menu {
+    font-size: 15px;
+    margin-top: 9px;
+}
+
+.precios_menu {
+    margin-top: 15px;
+}
+
+.descripcion_menu{
+    text-align: center;
+    margin-top: 9px;
+}
+
+.img_menu {
+    width: 80px;
+    height: 80px;
+}
+
+.footer {
+    grid-area: footer;
+    display: flex;
+    border-top: 1px;
+    border-color: #ffffff;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    justify-content: center;
+}
+
+.direccion {
+    justify-content: center;
+    align-content: center;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 15px;;
+    padding: 10px;
+    margin: auto;
+}
+
+.redes1 {
+    display: flex;
+    padding: 25px;
+    justify-content: center;
+    align-items: center;
+}
+.redes2 {
+    display: flex;
+    padding: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner {
+    background-image: url(../Imagenes/banner.jpg);
+    background-position: center;
+    background-size: contain;
+    width: 480px;
+}
+
+
+}
