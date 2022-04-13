@@ -299,7 +299,13 @@
 .img_menu {
     width: 100px;
     height: 100px;
+    transition: all 2s;
 }
+
+.img_menu:hover {
+    transform: rotate(90deg);
+}
+
 
 .img_cerveza {
     width: 100px;
