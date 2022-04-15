@@ -1,9 +1,9 @@
-* {
+/* {
     padding: 0%;
     margin: 0%;
-}
+} */
 
-.grilla {
+/* .grilla {
     display: grid;
     grid-template-areas: 
     "header "
@@ -11,29 +11,25 @@
     "footer ";
     grid-template-rows: 120px auto 100px;
     grid-template-columns: 100%;
-}
+} */
 
-.fondo {
+/* .fondo {
     background: rgb(0, 0, 0);
     color: white;
-}
+} */
 
-.sans {
+/* .sans {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: black;
     font-size: 20px;
-}
+} */
 
-.link {
+/* .link {
     text-decoration: none;
-    padding: 10px;
-}
+}  */
 
-.button {
-    background-color: rgb(141, 105, 5);
-    color: white;
+/* .boton {
     width: 150px;
-    font-family: 'Alegreya Sans SC', sans-serif;
     font-size: 30px;
     border-style: none;
     border-top-left-radius: 30px;
@@ -43,9 +39,9 @@
     right: 0;
     top: 150px;
     box-shadow: inset 0px 1px 0px #827066, 0px 3px 0px #19120f, 0px 6px 3px #382e29;
-}
+} */
 
-.boton2 {
+/* .boton2 {
     color: white;
     background-color: rgb(83, 83, 83);
     font-family: 'Alegreya Sans SC', sans-serif;
@@ -53,50 +49,50 @@
     border-radius: 5px;
     height: 30px;
     width: 100px;
-}
+} */
 
-.encabezado {
+/* .encabezado {
     width: 600px;
     height: auto;
     margin: auto;
     display: block;
-}
+} */
 
-.contacto {
+/* .contacto {
     width: 600px;
     height: auto;
     margin: auto;
     display: block;
-}
+} */
 
-.flex_form {
+/* .flex_form {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
     background-color: #0b0a0a;
     margin: 30px 10px;
-}
+} */
 
-.form {
+/* .form {
     min-width: 400px;
     flex: 1;
     text-align: center;
     padding: 30px;
-}
+} */
 
-.form_img {
+/* .form_img {
     flex: 1;
     padding: 10px;
     min-width: 300px;
-}
+} */
 
-.form_img img {
+/* .form_img img {
     width: 90%;
     margin: auto;    
-}
+} */
 
-.form_input {
+/* .form_input {
     width: 100%;
     padding: 7px;
     margin: 10px 0;
@@ -106,92 +102,92 @@
     color: white;
     font-family: 'Alegreya Sans SC', sans-serif;
     font-size: 20px;
-}
+} */
 
-.form_input:focus {
+/* .form_input:focus {
     border-bottom: 4px solid rgb(234, 250, 1);
     background:linear-gradient(to bottom, transparent,rgb(29, 29, 29));
     outline: none;
-}
+} */
 
-.form textarea {
+/* .form textarea {
     resize: none;
-}
+} */
 
-.form input[type="submit"] {
+/* .form input[type="submit"] {
     background-color: darkgoldenrod;
     border-bottom: none;
     padding: 12px;
-}
+} */
 
-.form input[type="submit"]:hover {
+/* .form input[type="submit"]:hover {
     background-color: rgb(109, 79, 3);
     border-bottom: none;
     padding: 12px;
-}
+} */
 
-.form input[type="submit"]:active {
+/* .form input[type="submit"]:active {
     background:linear-gradient(to bottom, transparent,rgb(217, 224, 115));
-}
+} */
 
-.promociones {
+/* .promociones {
     width: 600px;
     height: auto;
     margin: auto;
     display: block;
     margin-top: 15px;
-}
+} */
 
-.cervezas {
+/* .cervezas {
     width: 600px;
     height: auto;
     margin: auto;
     display: block;
     margin-top: 15px;
-}
+} */
 
-.titulos {
+/* .titulos {
     width: 600px;
     height: auto;
     display: block;
     margin: auto;
-}
+} */
 
-.contenedor_header {
+/* .contenedor_header {
     display: flex;
     padding-right: 15px;
     background-color: #ffffff;
     grid-area: header;
-}
+} */
 
-.menu {
+/* .menu {
     display: flex;
     justify-content: flex-end;
     width: 100%;
     align-items: center
-}
+} */
 
-.logo {
+/* .logo {
     display: flex;
     padding-left: 60px;
     padding-top: 10px;
     align-items: center;
     align-content: center;
     height: 100px;
-}
+} */
 
-.grid_main {
+/* .grid_main {
     grid-area: main;
-}
+} */
 
-.banner {
+/* .banner {
     background-image: url(../imagenes/banner.jpg);
     background-position: center;
     background-size: cover;
     height: 600px;
-}
+} */
 
-.footer {
+/* .footer {
     grid-area: footer;
     display: flex;
     border-top: 1px;
@@ -199,31 +195,31 @@
     background-color: rgb(0, 0, 0);
     color: white;
     justify-content: center;
-}
+} */
 
-.direccion {
+/* .direccion {
     justify-content: center;
     align-content: center;
     font-family: 'Alegreya Sans SC', sans-serif;
     font-size: 20px;
     padding: 30px;
     margin: auto;
-}
+} */
 
-.redes1 {
+/* .redes1 {
     display: flex;
     padding: 25px;
     justify-content: center;
     align-items: center;
-}
-.redes2 {
+} */
+/* .redes2 {
     display: flex;
     padding: 25px;
     justify-content: center;
     align-items: center;
-}
+} */
 
-.contenedor_arepas {
+/* .contenedor_arepas {
     display: grid;
     grid-template-rows: repeat(auto-fill,1fr);
     grid-template-columns: 1fr 1fr 1fr;
@@ -232,9 +228,9 @@
     padding-right: 150px;
     padding-bottom: 20px;
     justify-content: center;
-}
+} */
 
-.contenedor_burger {
+/* .contenedor_burger {
     display: grid;
     grid-template-rows:repeat(auto-fill,1fr);
     grid-template-columns: 1fr 1fr 1fr;
@@ -244,9 +240,9 @@
     padding-bottom: 20px;
     grid-auto-rows: auto;
     justify-content: center;
-}
+} */
 
-.contenedor_sandw {
+/* .contenedor_sandw {
     display: grid;
     grid-template-rows: repeat(auto-fill, 1fr);
     grid-template-columns: 1fr 1fr 1fr;
@@ -256,9 +252,9 @@
     padding-right: 150px;
     padding-bottom: 20px;
     grid-auto-rows: auto;
-}
+} */
 
-.contenedor_ensalada {
+/* .contenedor_ensalada {
     display: grid;
     grid-template-rows: 250px;
     grid-template-columns: 1fr;
@@ -268,51 +264,51 @@
     padding-right: 100px;
     padding-bottom: 20px;
     grid-auto-rows: auto;
-}
+} */
 
-.menu_item {
+/* .menu_item {
     color: white;
     padding: 10px;
     margin: 1px;
     align-content: center;
     text-align: center;
     width: auto;
-}
+} */
 
-.menu_item:nth-child(7) {
+/* .menu_item:nth-child(7) {
     grid-column: 1/4;
-}
+} */
 
-.titulos_menu {
+/* .titulos_menu {
     font-size: 20px;
-}
+} */
 
-.precios_menu {
+/* .precios_menu {
     margin-top: 15px;
-}
+} */
 
-.descripcion_menu{
+/* .descripcion_menu{
     text-align: center;
     margin-top: 5px;
-}
+} */
 
-.img_menu {
+/* .img_menu {
     width: 100px;
     height: 100px;
     transition: all 2s;
-}
+} */
 
-.img_menu:hover {
+/* .img_menu:hover {
     transform: rotate(90deg);
-}
+} */
 
 
-.img_cerveza {
+/* .img_cerveza {
     width: 100px;
     height: 120px;
-}
+} */
 
-.contenedor_cervezas {
+/* .contenedor_cervezas {
     display: grid;
     grid-template-rows: repeat(auto-fill,1fr);
     grid-template-columns: 1fr 1fr 1fr;
@@ -321,32 +317,32 @@
     padding-right: 150px;
     padding-bottom: 20px;
     justify-content: center;
-}
+} */
 
-.item_cerveza {
+/* .item_cerveza {
     padding: 10px;
     margin: 1px;
     align-content: center;
     text-align: center;
     width: auto;
-}
+} */
 
-.contacto {
+/* .contacto {
     width: 600px;
     height: auto;
     margin: auto;
     display: block;
     margin-top: 15px;
-}
+} */
 
-.banner_promo {
+/* .banner_promo {
     width: 600px;
     height: auto;
     margin: auto;
     display: block;
-}
+} */
 
-@media only screen and (max-width:480px) {
+/* @media only screen and (max-width:480px) {
 .grilla {
     grid-template-rows: 100px auto 80px;
 }
@@ -462,4 +458,9 @@
 }
 
 
+} */
+
+.alineacion {
+    justify-content: center;
+    text-decoration: none;
 }

@@ -6,32 +6,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chelsea Beer</title>
     <link rel="stylesheet" href="css/estilos.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="js/bootstrap.bundle.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@100&display=swap" rel="stylesheet">
 </head>
-<body class="fondo grilla">
-    <header class="contenedor_header">
-        <div class="logo"><img src="./imagenes/logochelsea.jpg"alt="Logo" height="80px"></div>
-        <div class="menu">
-            <a class="sans link" href="index.html">Inicio</a> 
-            <a class="sans link" href="menu.html">Menú</a>
-            <a class="sans link" href="cervezas.html">Cervezas</a>
-            <a class="sans link" href="promociones.html">Promociones</a>
-            <a class="sans link" href="contacto.html">Contacto - Reservas</a></div>
+<body class="bg-black text-white">
+    <header class="container-fluid bg-white text-black">
+        <div class="container">
+           <div class="row">  
+              <a class="align-items-center lead col-md-2 link" href="menu.html">Menú</a>
+              <a class="align-items-center lead col-md-2 link" href="cervezas.html">Cervezas</a>
+              <div class="text-center col-md-4"><a href="index.html"><img src="./imagenes/logochelsea.jpg" alt="logo" class="img-fluid" height="auto" width="120px"></a></div>
+              <a class="text-center lead col-md-2 link" href="promociones.html">Promociones</a>
+              <a class="text-center lead col-md-2 link" href="contacto.html">Contacto - Reservas</a>
+           </div>
+     </div>
     </header>
     <br>
-    <main class="grid_main">
+    <main>
     <img class="cervezas" src="./imagenes/cervezas.png" alt="cervezas">
-    <section class="contenedor_cervezas">
-        <div class="item_cerveza">
+    <section>
+        <div>
             <img src="./imagenes/cerveza.png" alt="tipo" class="img_cerveza">
             <div class="titulos_menu"><strong>Pilsen</strong></div> 
             <div><i>Suave y Refrescante</i></div>
             <div>IB: 10 / Cont. Alc: 4.2%</div> 
             <div><strong>Pinta: $280</strong></div>
         </div>
-        <div class="item_cerveza">
+        <div >
             <img src="./imagenes/cerveza.png" alt="tipo" class="img_cerveza">
             <div class="titulos_menu"><strong>Golden</strong></div> 
             <div><i>Cremosa con Toque Cítrico</i></div>
@@ -82,7 +86,7 @@
         </div>
     </section>
 
-    <a href="https://menu.fu.do/chelseabeer"><button class="button"><strong>Hacer Pedido</strong></button></a>  
+    <a href="https://menu.fu.do/chelseabeer"><button class="boton"><strong>Hacer Pedido</strong></button></a>  
     <br>
     <hr>
     </main>
