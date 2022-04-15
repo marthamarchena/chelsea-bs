@@ -6,154 +6,197 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chelsea Beer</title>
     <link rel="stylesheet" href="css/estilos.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="js/bootstrap.bundle.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@100&family=Rubik+Mono+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@100&display=swap" rel="stylesheet">
 </head>
-<body class="fondo grilla">
-    <header class="contenedor_header">
-        <div class="logo"><img src="./imagenes/logochelsea.jpg"alt="logo" height="80px"></div>
-        <div class="menu">
-             <a class="sans link" href="index.html">Inicio</a> 
-             <a class="sans link" href="menu.html">Menú</a>
-             <a class="sans link" href="cervezas.html">Cervezas</a>
-             <a class="sans link" href="promociones.html">Promociones</a>
-             <a class="sans link" href="contacto.html">Contacto - Reservas</a></div>
+<body class="bg-black text-white">
+    <header class="container-fluid bg-white text-black">
+        <div class="container nav justify-content-center">
+           <div class="row ">  
+              <a class="nav-link active lead col-md-2 link text-black" href="menu.html"><strong>Menú</strong></a>
+              <a class="nav-link active lead col-md-2 link text-black" href="cervezas.html"><strong>Cervezas</strong></a>
+              <div class="text-center col-md-4"><a href="index.html"><img src="./imagenes/logochelsea.jpg" alt="logo" class="img-fluid" height="auto" width="120px"></a></div>
+              <a class="nav-link active lead col-md-2 link text-black" href="promociones.html"><strong>Promos</strong></a>
+              <a class="nav-link active lead col-md-2 link text-black" href="contacto.html"><strong>Contacto</strong></a>
+           </div>
+     </div>
     </header>   
-<main class="grid_main">
+<main>
     <br>
-    <img class="encabezado" src="./imagenes/menuchelsea.png" alt="encabezado">
+    <div class="container">
+        <h1 class="text-white text-center texto"><strong>Menú</strong> </h1>
+    </div>
+    <div class="container">
+        <h2 class="text-white text-center texto"><strong>Arepas</strong> </h2>
+    </div>
     <br>
-    <img class="titulos" src="./imagenes/arepas.png" alt="arepas">
-
-    <section class="contenedor_arepas">
-        <div class="menu_item">
-            <img src="./imagenes/arepa3.png" alt="tipo" class="img_menu">
-            <div class="titulos_menu"><strong>Arepa Burguer</strong></div>
-            <div class="descripcion_menu">Carne de Hamburguesa (200gr), lechuga, tomate y cebolla con papas fritas</div> 
-            <div class="precios_menu"><strong>$690</strong></div>
+    <section class="container container-fluid">
+        <div class="row align-items-center">
+            <div class="col-md-4">
+                <img class="img-fluid" src="./imagenes/arepa2.png" alt="tipo">
+                <div><strong>Arepa Pelua</strong></div> 
+                <div><i>Carne en hebras y queso Tybo rallado</i></div>
+                <div><strong>$420</strong></div>
+            </div>
+            <div class="col-md-4">
+                <img class="img-fluid" src="./imagenes/arepa3.png" alt="tipo">
+                <div><strong>Arepa Reina</strong></div> 
+                <div><i>Pollo en hebras, palta y salsa tartar</i> </div>
+                <div><strong>$560</strong></div>
+            </div>
+            <div class="col-md-4">
+                <img class="img-fluid" src="./imagenes/arepa.png" alt="tipo">
+                <div><strong>Arepa Rumbera</strong></div> 
+                <div><i>Cerdo y queso venezolano a la plancha</i></div>
+                <div><strong>$530</strong></div>
+            </div>     
         </div>
-        <div class="menu_item">
-            <img src="./imagenes/arepa2.png" alt="tipo" class="img_menu">
-            <div class="titulos_menu"><strong>Arepa Catira</strong> </div>
-             <div class="descripcion_menu"><i>Pollo en hebras con queso Tybo rallado</i></div>
-            <div class="precios_menu"><strong>$520</strong></div>
-        </div>
-        <div class="menu_item">
-            <img src="./imagenes/arepa2.png" alt="tipo" class="img_menu">
-            <div class="titulos_menu"><strong>Arepa Catira</strong></div> 
-            <div class="descripcion_menu"><i>Pollo en hebras con queso Tybo rallado</i></div>
-            <div class="precios_menu"><strong>$520</strong></div>
-        </div>
-        <div class="menu_item">
-            <img src="./imagenes/arepa2.png" alt="tipo" class="img_menu">
-            <div class="titulos_menu"><strong>Arepa Domino</strong></div> 
-            <div class="descripcion_menu"><i>Porotos negros y queso venezolano</i></div>
-            <div class="precios_menu"><strong>$470</strong></div>
-        </div>
-        <div class="menu_item">
-            <img src="./imagenes/arepa2.png" alt="tipo" class="img_menu">
-            <div class="titulos_menu"><strong>Arepa Pelua</strong></div> 
-            <div class="descripcion_menu"><i>Carne en hebras y queso Tybo rallado</i></div>
-            <div class="precios_menu"><strong>$420</strong></div>
-        </div>
-        <div class="menu_item">
-            <img src="./imagenes/arepa3.png" alt="tipo" class="img_menu">
-            <div class="titulos_menu"><strong>Arepa Reina</strong></div> 
-            <div class="descripcion_menu" ><i>Pollo en hebras, palta y salsa tartar</i> </div>
-            <div class="precios_menu"><strong>$560</strong></div>
-        </div>
-        <div class="menu_item menu_item:nth-child">
-            <img src="./imagenes/arepa.png" alt="tipo" class="img_menu">
-            <div class="titulos_menu"><strong>Arepa Rumbera</strong></div> 
-            <div class="descripcion_menu"><i>Cerdo y queso venezolano a la plancha</i></div>
-            <div class="precios_menu"><strong>$530</strong></div>
-        </div>    
-    </section>
-        
-    <img class="titulos" src="./imagenes/hamburguesas.png" alt="Hamburguesa">
-
-    <section class="contenedor_burger" >
-        <div class="menu_item">
-           <img src="./imagenes/burger.png" alt="tipo" class="img_menu">
-            <div class="titulos_menu"><strong>Hamburguesa Clásica</strong></div>
-            <div class="descripcion_menu"><i>Carne de Hamburguesa (200gr), lechuga, tomate, cebolla, mayonesa, ketchup y savora</i></div>
-            <div class="precios_menu">$650</div> 
-        </div>
-        <div class="menu_item">
-            <img src="./imagenes/burger3.png" alt="tipo" class="img_menu">
-            <div class="titulos_menu"><strong>Hamburguesa Extrema Chelsea</strong></div> 
-            <div class="descripcion_menu"><i>Carne de Hamburguesa (400gr), panceta, queso, huevo frito, lechuga, tomate, cebolla, mayonesa, ketchup y savor</i></div>
-            <div class="precios_menu">$1.1900</div>
-        </div>
-        <div class="menu_item">
-            <img src="./imagenes/burger2.png" alt="tipo" class="img_menu">
-            <div class="titulos_menu"><strong>Hamburguesa Gringa</strong></div> 
-            <div class="descripcion_menu"><i>Carne de Hamburguesa (200gr), doble cheddar, panceta, barbacoa, lechuga, tomate y cebolla</i></div> 
-            <div class="precios_menu">$810</div>
-        </div>
-        <div class="menu_item">
-            <img src="./imagenes/burger.png" alt="tipo" class="img_menu">
-            <div class="titulos_menu"><strong>Hamburguesa Porteñaa</strong></div> 
-            <div class="descripcion_menu"><i>Carne de Hamburguesa (200gr), queso tybo, chori, chimi, rucula y tomate</i></div>
-            <div class="precios_menu">$690</div>
-        </div>
-        <div class="menu_item">
-            <img src="./imagenes/burger2.png" alt="tipo" class="img_menu">
-            <div class="titulos_menu"><strong>Hamburguesa Gringa</strong></div> 
-            <div class="descripcion_menu"><i>Carne de Hamburguesa (200gr), doble cheddar, panceta, barbacoa, lechuga, tomate y cebolla</i></div> 
-            <div class="precios_menu">$810</div>
-        </div>
-        <div class="menu_item">
-            <img src="./imagenes/burger2.png" alt="tipo" class="img_menu">
-            <div class="titulos_menu"><strong>Hamburguesa Tana</strong></div> 
-            <div class="descripcion_menu"><i>Carne de Hamburguesa (200gr), mozarella, tomates confitados, pesto y lechuga</i></div> 
-            <div class="precios_menu">$730</div>
+        <div class="row align-items-center">
+            <div class="col-md-4">
+                <img class="img-fluid" src="./imagenes/arepa2.png" alt="tipo">
+                <div><strong>Arepa Domino</strong></div> 
+                <div><i>Porotos negros y queso venezolano</i></div>
+                <div><strong>$470</strong></div>
+            </div>
+            <div class="col-md-4">
+                <img class="img-fluid" src="./imagenes/arepa2.png" alt="tipo">
+                <div><strong>Arepa Catira</strong></div> 
+                <div><i>Pollo en hebras con queso Tybo rallado</i></div>
+                <div><strong>$520</strong></div>
+            </div>
+            <div class="col-md-4">
+                <img class="img-fluid" src="./imagenes/arepa3.png" alt="tipo">
+                <div><strong>Arepa Burguer</strong></div>
+                <div">Carne de Hamburguesa (200gr), lechuga, tomate y cebolla con papas fritas</div> 
+                <div><strong>$690</strong></div>
+            </div>
+            <div class="col-md-4">
+                <img class="img-fluid" src="./imagenes/arepa2.png" alt="tipo">
+                <div><strong>Arepa Catira</strong> </div>
+                <div><i>Pollo en hebras con queso Tybo rallado</i></div>
+                <div><strong>$520</strong></div>
+            </div>
         </div>
     </section>
-
-    <img class="titulos" src="./imagenes/sandwichs.png" alt="sandwichs">
-    
-    <section class="contenedor_sandw">
-        <div class="menu_item">
-            <img src="./imagenes/sandwichs1.png" alt="tipo" class="img_menu">
-            <div class="titulos_menu"><strong>Pepito Mixto Gratinado</strong></div> 
-            <div class="descripcion_menu"><i>Sandwich gratinado con pollo y carne cortada a cuchillo con lechuga, tomate, cebolla y aderezos</i></div> 
-            <div class="precios_menu">$880</div>
-        </div>
-        <div class="menu_item">
-            <img src="./imagenes/falafel.png" alt="tipo" class="img_menu">
-            <div class="titulos_menu"><strong>Falafel al Plato</strong></div> 
-            <div class="descripcion_menu"><i>Croquetas de falafel, tabule, hummus y pan pita</i></div>
-            <div class="precios_menu">$490</div>
-        </div>
-        <div class="menu_item">
-            <img src="./imagenes/falafel.png" alt="tipo" class="img_menu">
-            <div class="titulos_menu"><strong>Shawarma al Plato</strong></div> 
-            <div class="descripcion_menu"><i>Carne con aderezo arabe, tabule, hummus y pan pita</i> </div>
-            <div class="precios_menu">$550</div>
-        </div>
-    </section>
-
-    <img class="titulos" src="./imagenes/ensaladas.png" alt="ensaladas">
-
-    <section class="contenedor_ensalada">
-        <div class="menu_item">
-            <img src="./imagenes/ensalada1.png" alt="tipo" class="img_menu">
-            <div class="titulos_menu"><strong>Ensalada Cesar con Pollo</strong></div> 
-            <div class="descripcion_menu"><i>Ensalada con suprema de pollo, croutons, queso sardo, lechuga y aderezo cesar</i></div> 
-            <div class="precios_menu">$550</div>
-        </div>
-    </section>
-    <a href="https://menu.fu.do/chelseabeer"><button class="button"><strong>Hacer Pedido</strong></button></a>
     <br>
-    <hr>
+    <br>       
+    <figure class="text-center">
+        <blockquote class="blockquote">
+          <h2 class="texto">Hamburguesas</h2>
+        </blockquote>
+        <figcaption class="blockquote-footer">
+          <cite title="Source Title"></cite>Hamburguesas de Carne (Carne a base de Blend de Tapa de Asado y Roast Beef) Todas las Hamburguesas incluyen papas fritas</cite>
+        </figcaption>
+    </figure>
+    <br>
+    <section class="container container-fluid">
+        <div class="row align-items-center">
+            <div class="col-md-4">
+            <img class="img-fluid" src="./imagenes/burger.png" alt="tipo">
+                <div><strong>Hamburguesa Clásica</strong></div>
+                <div><i>Carne de Hamburguesa (200gr), lechuga, tomate, cebolla, mayonesa, ketchup y savora</i></div>
+                <div>$650</div> 
+            </div>
+            <div class="col-md-4">
+                <img class="img-fluid" src="./imagenes/burger3.png" alt="tipo">
+                <div><strong>Hamburguesa Extrema Chelsea</strong></div> 
+                <div><i>Carne de Hamburguesa (400gr), panceta, queso, huevo frito, lechuga, tomate, cebolla, mayonesa, ketchup y savor</i></div>
+                <div>$1.1900</div>
+            </div>
+            <div class="col-md-4">
+                <img class="img-fluid" src="./imagenes/burger2.png" alt="tipo">
+                <div><strong>Hamburguesa Gringa</strong></div> 
+                <div><i>Carne de Hamburguesa (200gr), doble cheddar, panceta, barbacoa, lechuga, tomate y cebolla</i></div> 
+                <div>$810</div>
+            </div> 
+        </div>
+        <div class="row align-items-center">
+            <div class="col-md-4">
+                <img class="img-fluid" src="./imagenes/burger.png" alt="tipo">
+                <div><strong>Hamburguesa Porteñaa</strong></div> 
+                <div><i>Carne de Hamburguesa (200gr), queso tybo, chori, chimi, rucula y tomate</i></div>
+                <div>$690</div>
+            </div>
+            <div class="col-md-4">
+                <img class="img-fluid" src="./imagenes/burger2.png" alt="tipo">
+                <div><strong>Hamburguesa Gringa</strong></div> 
+                <div><i>Carne de Hamburguesa (200gr), doble cheddar, panceta, barbacoa, lechuga, tomate y cebolla</i></div> 
+                <div>$810</div>
+            </div>
+            <div class="col-md-4">
+                <img class="img-fluid" src="./imagenes/burger2.png" alt="tipo">
+                <div><strong>Hamburguesa Tana</strong></div> 
+                <div><i>Carne de Hamburguesa (200gr), mozarella, tomates confitados, pesto y lechuga</i></div> 
+                <div">$730</div>
+            </div> 
+        </div>
+    </section>
+    <br>
+    <br>
+    <div class="container">
+        <h2 class="text-white text-center texto"><strong>Sandwich</strong> </h2>
+    </div>
+    <br>
+    <section class="container container-fluid">
+        <div class="row align-items-center">
+            <div class="col-md-4">
+                <img class="img-fluid" src="./imagenes/sandwichs1.png" alt="tipo">
+                <div><strong>Pepito Mixto Gratinado</strong></div> 
+                <div><i>Sandwich gratinado con pollo y carne cortada a cuchillo con lechuga, tomate, cebolla y aderezos</i></div> 
+                <div>$880</div>
+            </div>
+            <div class="col-md-4">
+                <img class="img-fluid" src="./imagenes/falafel.png" alt="tipo">
+                <div><strong>Falafel al Plato</strong></div> 
+                <div><i>Croquetas de falafel, tabule, hummus y pan pita</i></div>
+                <div>$490</div>
+            </div>
+            <div class="col-md-4">
+                <img class="img-fluid" src="./imagenes/falafel.png" alt="tipo">
+                <div><strong>Shawarma al Plato</strong></div> 
+                <div><i>Carne con aderezo arabe, tabule, hummus y pan pita</i> </div>
+                <div>$550</div>
+            </div>    
+        </div>
+    </section>
+
+    <div class="container">
+        <h2 class="text-white text-center texto"><strong>Ensaladas</strong> </h2>
+    </div>>
+
+    <section class="container container-fluid">
+        <div class="row align-items-center">
+            <div class="col-md-10 align-items-center">
+            <img class="img-fluid" src="./imagenes/ensalada1.png" alt="tipo">
+                <div><strong>Ensalada Cesar con Pollo</strong></div> 
+                <div><i>Ensalada con suprema de pollo, croutons, queso sardo, lechuga y aderezo cesar</i></div> 
+                <div>$550</div> 
+            </div>  
+        </div>
+    </section>
+    <br>
+    <div class="bg-black text.white text-center">
+       <a href="https://menu.fu.do/chelseabeer"><button class="btn btn-outline-light text-white"><strong>Hacer Pedido</strong></button></a>  
+    </div>
+    <br>
 </main>
-<footer class="footer">
-    <div class="direccion">Av. Triunvirato 3927. CABA</div>
-    <div class="direccion">Horario: Lunes a Sábado: 17 hrs - 00 Hrs</div>
-    <a class="redes1" href="https://web.whatsapp.com" target="_blank"><img src="./imagenes/whatsapp.png" alt="whatsapp"></a>
-    <a class="redes2" href="https://www.instagram.com/chelseabeer.ar/?hl=es" target="_blank"><img src="./imagenes/instagram.png" alt="instagram"></a>
+<footer class="bg-black text-white container-fluid border-top border-2">
+    <br>
+    <div class="container">
+       <div class="row">
+          <div class="col-md-5">Av. Triunvirato 3927. CABA</div>
+          <div class="col-md-5">Horario: Lunes a Sábado: 17 hrs - 00 Hrs</div>
+          <a class="col-md-1" href="https://web.whatsapp.com" target="_blank"><img src="./imagenes/whatsapp.png" alt="whatsapp"></a>
+          <a class="col-md-1" href="https://www.instagram.com/chelseabeer.ar/?hl=es" target="_blank"><img src="./imagenes/instagram.png" alt="instagram"></a> 
+       </div>
+    </div>
+    <br>
 </footer>
 </body>
 </html>

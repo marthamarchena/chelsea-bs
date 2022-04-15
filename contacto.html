@@ -6,15 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chelsea Beer</title>
     <link rel="stylesheet" href="css/estilos.css">
-<body class="fondo grilla">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="js/bootstrap.bundle.min.js"></script>
+<body class="bg-black text-white">
 </head>
     <header class="container-fluid bg-white text-black">
-        <div class="container">
-        <a class="lead link" href="menu.html">Menú</a>
-        <a class="lead link" href="cervezas.html">Cervezas</a>
-        <div class="text-center"><a href="index.html"><img src="./imagenes/logochelsea.jpg" alt="logo" class="img-fluid" height="auto" width="120px"></a></div>
-        <a class="lead link" href="promociones.html">Promociones</a>
-        <a class="lead link" href="contacto.html">Contacto - Reservas</a></div>
+        <div class="container nav justify-content-center">
+        <div class="row ">  
+            <a class="nav-link active lead col-md-2 link text-black" href="menu.html"><strong>Menú</strong></a>
+            <a class="nav-link active lead col-md-2 link text-black" href="cervezas.html"><strong>Cervezas</strong></a>
+            <div class="text-center col-md-4"><a href="index.html"><img src="./imagenes/logochelsea.jpg" alt="logo" class="img-fluid" height="auto" width="120px"></a></div>
+            <a class="nav-link active lead col-md-2 link text-black" href="promociones.html"><strong>Promos</strong></a>
+            <a class="nav-link active lead col-md-2 link text-black" href="contacto.html"><strong>Contacto</strong></a>
+        </div>
+    </div>
     </header>
     <main class="grid_main">
     <br>
@@ -53,10 +58,17 @@
     <br>
     <hr>
     </main>
-    <footer class="footer">
-        <div class="direccion">Av. Triunvirato 3927. CABA</div><div class="direccion">Horario: Lunes a Sábado: 17 hrs - 00 Hrs</div>
-        <a class="redes1" href="https://web.whatsapp.com" target="_blank"><img src="./imagenes/whatsapp.png" alt="whatsapp"></a>
-        <a class="redes2" href="https://www.instagram.com/chelseabeer.ar/?hl=es" target="_blank"><img src="./imagenes/instagram.png" alt="instagram"></a>
-     </footer>
+    <footer class="bg-black text-white container-fluid border-top border-2">
+        <br>
+        <div class="container">
+           <div class="row">
+              <div class="col-md-5">Av. Triunvirato 3927. CABA</div>
+              <div class="col-md-5">Horario: Lunes a Sábado: 17 hrs - 00 Hrs</div>
+              <a class="col-md-1" href="https://web.whatsapp.com" target="_blank"><img src="./imagenes/whatsapp.png" alt="whatsapp"></a>
+              <a class="col-md-1" href="https://www.instagram.com/chelseabeer.ar/?hl=es" target="_blank"><img src="./imagenes/instagram.png" alt="instagram"></a> 
+           </div>
+        </div>
+        <br>
+    </footer>
 </body>
 </html>

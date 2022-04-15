@@ -6,31 +6,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chelsea Beer</title>
     <link rel="stylesheet" href="css/estilos.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="js/bootstrap.bundle.min.js"></script>
 </head>
-    <body class="fondo grilla">
-    <header class="contenedor_header">
-        <div class="logo"><img src="./imagenes/logochelsea.jpg"alt="Logo" height="80px"></div>
-        <div class="menu">
-             <a class="sans link" href="index.html">Inicio</a> 
-             <a class="sans link" href="menu.html">Menú</a>
-             <a class="sans link" href="cervezas.html">Cervezas</a>
-             <a class="sans link" href="promociones.html">Promociones</a>
-             <a class="sans link" href="contacto.html">Contacto - Reservas</a></div>
-    </header>
+    <body class="bg-black text-white">
+        <header class="container-fluid bg-white text-black">
+            <div class="container nav justify-content-center">
+               <div class="row ">  
+                  <a class="nav-link active lead col-md-2 link text-black" href="menu.html"><strong>Menú</strong></a>
+                  <a class="nav-link active lead col-md-2 link text-black" href="cervezas.html"><strong>Cervezas</strong></a>
+                  <div class="text-center col-md-4"><a href="index.html"><img src="./imagenes/logochelsea.jpg" alt="logo" class="img-fluid" height="auto" width="120px"></a></div>
+                  <a class="nav-link active lead col-md-2 link text-black" href="promociones.html"><strong>Promos</strong></a>
+                  <a class="nav-link active lead col-md-2 link text-black" href="contacto.html"><strong>Contacto</strong></a>
+               </div>
+         </div>
+        </header>
     <br>
-    <main class="grid_main">
-    <img class="promociones" src="./imagenes/promociones.png" alt="Promociones">
-    <div><img class="banner_promo" src="./imagenes/promo1.png" alt="promo para picar"></div>
-    <br>
-    <div><img class="banner_promo" src="./imagenes/promo2.png" alt="promo ladies night"></div>
-    <br>
+    <main>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./imagenes/promo1.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./imagenes/promo2.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
     <hr>
     </main>
-    <Footer class="footer">
-        <div class="direccion">Av. Triunvirato 3927. CABA</div>
-        <div class="direccion">Horario: Lunes a Sábado: 17 hrs - 00 Hrs</div>
-        <a class="redes1" href="https://web.whatsapp.com" target="_blank"><img src="./imagenes/whatsapp.png" alt="whatsapp"></a>
-        <a class="redes2" href="https://www.instagram.com/chelseabeer.ar/?hl=es" target="_blank"><img src="./imagenes/instagram.png" alt="instagram"></a>
-     </Footer>
+    <footer class="bg-black text-white container-fluid border-top border-2">
+        <br>
+        <div class="container">
+           <div class="row">
+              <div class="col-md-5">Av. Triunvirato 3927. CABA</div>
+              <div class="col-md-5">Horario: Lunes a Sábado: 17 hrs - 00 Hrs</div>
+              <a class="col-md-1" href="https://web.whatsapp.com" target="_blank"><img src="./imagenes/whatsapp.png" alt="whatsapp"></a>
+              <a class="col-md-1" href="https://www.instagram.com/chelseabeer.ar/?hl=es" target="_blank"><img src="./imagenes/instagram.png" alt="instagram"></a> 
+           </div>
+        </div>
+        <br>
+    </footer>
 </body>
 </html>

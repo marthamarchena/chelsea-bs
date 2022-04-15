@@ -460,7 +460,6 @@
 
 } */
 
-.alineacion {
-    justify-content: center;
-    text-decoration: none;
+.texto {
+    font-family: 'Rubik Mono One', sans-serif;
 }
