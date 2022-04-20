@@ -28,18 +28,19 @@
     text-decoration: none;
 }  */
 
-/* .boton {
+.boton {
     width: 150px;
-    font-size: 30px;
+    font-size: 25px;
     border-style: none;
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
-    height: 100px;
+    height: 90px;
     position: fixed;
     right: 0;
-    top: 150px;
+    top: 200px;
+    background-color: rgb(218, 197, 16);
     box-shadow: inset 0px 1px 0px #827066, 0px 3px 0px #19120f, 0px 6px 3px #382e29;
-} */
+}
 
 /* .boton2 {
     color: white;
@@ -342,20 +343,17 @@
     display: block;
 } */
 
-/* @media only screen and (max-width:480px) {
-.grilla {
-    grid-template-rows: 100px auto 80px;
-}
+@media only screen and (max-width:480px) {
 
 .button {
     background-color: rgb(207, 188, 13);
     width: 80px;
-    font-size: 20px;
+    font-size: 15px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     height: 70px;
 }
-
+/* 
 .encabezado {
     width: 400px;
 }
@@ -455,11 +453,15 @@
 .contacto {
     width: 400px;
     margin-top: 5px;
-}
-
-
 } */
+
+
+}
 
 .texto {
     font-family: 'Rubik Mono One', sans-serif;
+}
+
+.margen {
+    padding: 20px;
 }
