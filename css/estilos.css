@@ -25,7 +25,7 @@
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     height: 70px; }
-    .button:hover {
+    .button:focus {
       background-color: #bb9108;
       color: white; } }
 
