@@ -1,30 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Chelsea Beer</title>
-    <!-- seo -->
-    <meta name="decription" content="Cervecería Artesanal, con los mejores platos de villa urquiza">
-    <meta name="keywords" content="cervecería artesanal, cervezas, hamburguesas, arepas, villa urquiza">  
-    <!-- estilos -->
-    <link rel="stylesheet" href="css/estilos.css">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <!-- fuentes -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@100&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Chelsea Beer</title>
+  <!-- seo -->
+  <meta name="decription" content="Cervecería Artesanal, con los mejores platos de villa urquiza">
+  <meta name="keywords" content="cervecería artesanal, cervezas, hamburguesas, arepas, villa urquiza">
+  <!-- estilos -->
+  <link rel="stylesheet" href="css/estilos.css">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <!-- fuentes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@100&display=swap" rel="stylesheet">
 </head>
-<body>
+
+<body class="bg-black">
   <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html">
           <img src="/imagenes/logochelsea.jpg" alt="logo chelsea" width="80px">
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
@@ -46,14 +49,17 @@
       </div>
     </nav>
   </header>
-<main class="bg-black">
-   <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-      </div>
-      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+  <main>
+    <div>
+      <div id="carouselExampleIndicators" class="carousel slide carrusel" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="./imagenes/banner.jpg" class="d-block w-100" alt="banner">
@@ -66,20 +72,25 @@
           </div>
         </div>
       </div>
-      <a href="https://menu.fu.do/chelseabeer"><button class="boton"><strong>Hacer Pedido</strong></button></a>  
-   </div>
-</main>
-<footer class="bg-black text-white container-fluid border-top border-2">
-<br>
-<div class="container">
-   <div class="row">
-      <div class="col-md-5">Av. Triunvirato 3927. CABA</div>
-      <div class="col-md-5">Horario: Lunes a Sábado: 17 hrs - 00 Hrs</div>
-      <a class="col-md-1" href="https://web.whatsapp.com" target="_blank"><img src="./imagenes/whatsapp.png" alt="whatsapp"></a>
-      <a class="col-md-1" href="https://www.instagram.com/chelseabeer.ar/?hl=es" target="_blank"><img src="./imagenes/instagram.png" alt="instagram"></a> 
-   </div>
-</div>
-<br>
-</footer>
+      <div>
+        <a href="https://menu.fu.do/chelseabeer"><button class="boton"><strong>Hacer Pedido</strong></button></a>
+      </div>
+    </div>
+  </main>
+  <footer class="bg-black text-white container-fluid border-top border-2 footer">
+    <br>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5">Av. Triunvirato 3927. CABA</div>
+        <div class="col-md-5">Horario: Lunes a Sábado: 17 hrs - 00 Hrs</div>
+        <a class="col-md-1" href="https://web.whatsapp.com" target="_blank"><img src="./imagenes/whatsapp.png"
+            alt="whatsapp"></a>
+        <a class="col-md-1" href="https://www.instagram.com/chelseabeer.ar/?hl=es" target="_blank"><img
+            src="./imagenes/instagram.png" alt="instagram"></a>
+      </div>
+    </div>
+    <br>
+  </footer>
 </body>
+
 </html>
