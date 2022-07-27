@@ -17,6 +17,11 @@
   color: white;
 }
 
+.botonmenu:hover {
+  background-color: #dac510;
+  color: rgb(0, 0, 0);
+}
+
 .texto {
   font-family: 'Rubik Mono One', sans-serif;
 }
