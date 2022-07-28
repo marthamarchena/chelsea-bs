@@ -42,7 +42,7 @@
               <a class="nav-link active" href="contacto.html">Contacto</a>
             </li>
             <li class="nav-item ">
-              <button id="open" class="btn btn-sm btn-outline-secondary nav-link" type="button" href="carrito.html" >Carrito</button>
+              <button id="open" class="btn btn-sm btn-outline-secondary nav-link" type="button" href="#" >Carrito</button>
             </li>
           </ul>
         </div>
@@ -82,8 +82,8 @@
     </div>
 
 <!-- Modal -->
-    <div id="modal-container" class="modal modal-active" tabindex="-1" role="dialog">
-      <div class="modal-dialog" role="document">
+    <div id="modal_container" class="modal modal-active modal-container" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-carrito" role="document">
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title">Mi Carrito</h5>
@@ -95,8 +95,9 @@
             <p>Modal body text goes here.</p>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+            <button id="cerrar" type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
           </div>
+          <div id="carrito-contenedor"></div>
         </div>
       </div>
     </div>
@@ -118,10 +119,11 @@
     <br>
   </footer>
 
-  <script src="comidas.js" type="module"></script>
-  <script src="modal.js" type="module"></script>
-  <script src="apps.js" type="module"></script>
-  <script src="carritoindex.js" type="module"></script>
+  <script src="./js/comidas.js" type="module"></script>
+  <script src="./js/modal.js" type="module"></script>
+  <script src="./js/productos.js" type="module"></script>
+  <script src="./js/carritoindex.js" type="module"></script>
+  <!-- <script src="./js/index.js"></script> -->
 
 </body>
 </html>
