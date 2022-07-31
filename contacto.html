@@ -70,34 +70,34 @@
         <div id="formulario" class="col-md-6">
           <div>
             <label for="exampleFormControlInput1" class="form-label">Email</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            <input type="email" name="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
           </div>
           <div>
             <label for="exampleFormControlInput1" class="form-label">Nombre</label>
-            <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="">
+            <input type="name" name="nombre" class="form-control" id="exampleFormControlInput1" placeholder="">
           </div>
           <div>
             <label for="exampleFormControlInput1" class="form-label">Teléfono</label>
-            <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="">
+            <input type="number" name="telefono" class="form-control" id="exampleFormControlInput1" placeholder="">
           </div>
           <div>
             <label for="exampleFormControlInput1" class="form-label">Fecha</label>
-            <input type="date" class="form-control" id="exampleFormControlInput1" placeholder="">
+            <input type="date" name="fecha" class="form-control" id="exampleFormControlInput1" placeholder="">
           </div>
           <div>
             <label for="exampleFormControlInput1" class="form-label">Hora</label>
-            <input type="time" class="form-control" id="exampleFormControlInput1" placeholder="">
+            <input type="time" name="hora" class="form-control" id="exampleFormControlInput1" placeholder="">
           </div>
           <div>
             <label for="exampleFormControlInput1" class="form-label">Cantidad de Personas</label>
-            <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="">
+            <input type="number" name="cantidad" class="form-control" id="exampleFormControlInput1" placeholder="">
           </div>
           <div>
             <label for="exampleFormControlTextarea1" class="form-label">Comentarios</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder=""></textarea>
+            <textarea class="form-control" name="comentarios" id="exampleFormControlTextarea1" rows="3" placeholder=""></textarea>
           </div>
           <div>
-            <button type="button" class="btn btn-outline-light submit">Enviar</button>
+            <button type="submit" class="btn btn-outline-light submit">Enviar</button>
           </div>
         </div>
       </div>
@@ -106,6 +106,8 @@
     <br>
     <br>
   </main>
+
+  <!-- Footer -->
   <footer class="bg-black text-white container-fluid border-top border-2">
     <br>
     <div class="container">
@@ -120,6 +122,8 @@
     </div>
     <br>
   </footer>
-</body>
 
+  <script src="./js/eventos.js" type="module"></script>
+  
+</body>
 </html>

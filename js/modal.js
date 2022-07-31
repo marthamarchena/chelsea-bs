@@ -19,23 +19,23 @@
 //     e.stopPropagation();
 // })
 
-  let boton1 = document.getElementById (`bnt1`);
+  // let boton1 = document.getElementById (`bnt1`);
 
-  boton1.addEventListener(`click`, ()=> {
-    const Toast = Swal.mixin({
-        toast: true,
-        position: 'top-end',
-        showConfirmButton: false,
-        timer: 3000,
-        timerProgressBar: true,
-        didOpen: (toast) => {
-          toast.addEventListener('mouseenter', Swal.stopTimer)
-          toast.addEventListener('mouseleave', Swal.resumeTimer)
-        }
-      })
+  // boton1.addEventListener(`click`, ()=> {
+  //   const Toast = Swal.mixin({
+  //       toast: true,
+  //       position: 'top-end',
+  //       showConfirmButton: false,
+  //       timer: 3000,
+  //       timerProgressBar: true,
+  //       didOpen: (toast) => {
+  //         toast.addEventListener('mouseenter', Swal.stopTimer)
+  //         toast.addEventListener('mouseleave', Swal.resumeTimer)
+  //       }
+  //     })
       
-      Toast.fire({
-        icon: 'success',
-        title: 'Agregado a tu pedido'
-      })    
-  })
+  //     Toast.fire({
+  //       icon: 'success',
+  //       title: 'Agregado a tu pedido'
+  //     })    
+  // })
