@@ -86,7 +86,9 @@
       <h2 class="text-white text-center texto"><strong>Arepas</strong> </h2>
     </div>
     <br>
-    <section class="container-fluid">
+
+    <div class="row" id="items"></div>
+    <!-- <section class="container-fluid">
       <div id="cards" class="row justify-content-center">
        <div class="card bg-black margen" style="width: 15rem;">
           <img src="./imagenes/arepa1.png" class="card-img-top" alt="...">
@@ -115,7 +117,7 @@
             <a id="bnt1" href="#" class="btn btn-light botonmenu">Agregar</a>
           </div>
         </div>
-    </section>
+    </section> -->
     <!-- <section class="container-fluid">
       <div class="row justify-content-center">
         <div id="cards" class="card bg-black" style="width: 15rem;">
@@ -267,9 +269,23 @@
         </div>
       </div>
     </section> -->
-    <br>
 
-  <!-- Botón de Pedido -->
+    <!-- Template -->
+    <template id="template-card">
+      <div class="col-10 mb-2 col-md-4">
+        <div class="card">
+          <img src="" alt="" class="card-img-top">
+          <div class="card-body bg-black text-white">
+            <h5>Titulo</h5>
+            <h6>descripcion</h6>
+            <p>precio</p>
+            <button class="btn btn-light">Agregar</button>
+          </div>
+        </div>
+      </div>
+    </template>
+
+  <!-- Botón de Pedido Anterior -->
     <div>
       <a href="https://menu.fu.do/chelseabeer"><button class="boton"><strong>Hacer Pedido</strong></button></a>
     </div>
@@ -292,10 +308,9 @@
     <br>
   </footer>
 
-  <script src="./js/comidas.js" type="module"></script>
-  <script src="./js/modal.js" type="module"></script>
+  <!-- <script src="./js/modal.js" type="module"></script> -->
   <script src="./js/productos.js" type="module"></script>
-  <script src="./js/carritoindex.js" type="module"></script>
+  <!-- <script src="./js/carritoindex.js" type="module"></script> -->
 
 </body>
 </html>
