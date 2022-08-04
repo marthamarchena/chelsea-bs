@@ -14,6 +14,7 @@ document.addEventListener(`DOMContentLoaded`, () => {
         pintarCarrito()
     }
 })
+
 cards.addEventListener(`click`, e =>{
     addCarrito(e)
 })
