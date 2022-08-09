@@ -1,6 +1,5 @@
-
-
 // Inicio de Sesion
+// Lo comento porque por alguna razon este no me funciona, creo que lo tengo mal seteado, como lo podría resolver?.
 
 // let usuario;
 // let usuarioStorage = sessionStorage.getItem("usuario"); 
@@ -25,9 +24,8 @@
 
 
 // Selección de Zona
-// (async () => {
-//     const {value: zona} = await 
-Swal.fire ({
+(async () => {
+    const {value: zona} = await Swal.fire ({
         title: `Ubicación`,
         text: `En que zona te encuentras?`,
         icon: `question`,
@@ -38,7 +36,7 @@ Swal.fire ({
         allowEnterKey: false,
         stopKeydownPropagation: false,
         input: `select`,
-        inputPlaceholder: `Zona CABA`,
+        inputPlaceholder: `Zona de CABA`,
         inputValue: ``, 
         inputOptions: {
             agronomia: `Agronomía`,
@@ -47,12 +45,18 @@ Swal.fire ({
             coghlan: `Coghlan`,
             colegiales: `Colegiales`,
             nunez: `Nuñez`,
-            palermo: `Palermo`,
             chas: `Parque Chas`,
             saavedra: `Saavedra`,
-            crespo: `Villa Crespo`,
             ortuzar: `Villa Ortúzar`,
             urquiza: `Villa Urquiza`,
         }
-    })
-// } )
+    });
+
+        if (zona) {
+            Swal.fire ({
+                title: `Seleccionaste ${zona}`,
+            });
+
+        }
+}) ()
+
