@@ -22,12 +22,27 @@
   color: rgb(0, 0, 0);
 }
 
+.descripcion {
+  height: 25px;
+  overflow: hidden;
+  font-size: 15px;
+  transition: height .3s ease-in .3s;
+}
+
+.descripcion:hover{
+  height: 100px;
+}
+
 .texto {
   font-family: 'Rubik Mono One', sans-serif;
 }
 
 .margen {
   padding: 20px;
+}
+
+.margen2 {
+  margin: 15px;
 }
 
 @media only screen and (max-width: 420px) {

@@ -46,7 +46,9 @@
               <a class="nav-link active" href="contacto.html">Contacto</a>
             </li>
             <li class="nav-item ">
-              <button id="open" class="btn btn-sm btn-outline-secondary nav-link" type="button" href="#" >Carrito</button>
+              <a class="nav-link active" href="carrito.html">
+                <button class="btn btn-sm btn-outline-secondary" type="button"> Carrito </button>
+              </a>
             </li>
             </li>
           </ul>
@@ -55,292 +57,95 @@
     </nav>
   </header>
 
-  <main id="productocontenedor">
 
-  <!-- Modal -->
-  <!-- <div id="modal_container" class="modal modal-active modal-container" tabindex="-1" role="dialog">
-    <div class="modal-dialog modal-carrito" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title">Mi Carrito</h5>
-          <button id="cerrar" type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          <p>Modal body text goes here.</p>
-        </div>
-        <div class="modal-footer">
-          <button id="cerrar" type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-        </div>
-        <div id="carrito-contenedor"></div>
-      </div>
-    </div>
-  </div> -->
+
+  <main id="productocontenedor" class="margen2">
 
     <br>
     <div class="container">
       <h1 class="text-white text-center texto"><strong>Menú</strong> </h1>
     </div>
-    <div class="container">
-      <h2 class="text-white text-center texto"><strong>Arepas</strong> </h2>
-    </div>
     <br>
 
     <div class="row" id="cards"></div>
-    <!-- <section class="container-fluid">
-      <div id="cards" class="row justify-content-center">
-       <div class="card bg-black margen" style="width: 15rem;">
-          <img src="./imagenes/arepa1.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Arepa Pelua</h5>
-            <p>Carne en hebras y queso Tybo rallado</p>
-            <p><strong>$420</strong></p>
-            <a id="bnt1"  href="#" class="btn btn-light botonmenu">Agregar</a>
-          </div>
-        </div>
-        <div id="cards" class="card bg-black margen" style="width: 15rem;">
-          <img src="./imagenes/arepa.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <p class="card-text"><strong>Arepa Reina</strong></p>
-            <p>Pollo en hebras, palta y salsa tartar</p>
-            <p><strong>$560</strong></p>
-            <a id="bnt1" href="#" class="btn btn-light botonmenu">Agregar</a>
-          </div>
-        </div>
-        <div id="cards" class="card bg-black margen" style="width: 15rem;">
-          <img src="./imagenes/arepa.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <p class="card-text"><strong>Arepa Rumbera</strong></p>
-            <p>Cerdo y queso venezolano a la plancha</p>
-            <p><strong>$530</strong></p>
-            <a id="bnt1" href="#" class="btn btn-light botonmenu">Agregar</a>
-          </div>
-        </div>
-    </section> -->
-    <!-- <section class="container-fluid">
-      <div class="row justify-content-center">
-        <div id="cards" class="card bg-black" style="width: 15rem;">
-          <img src="./imagenes/arepa1.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <p class="card-text"><strong>Arepa Domino</strong></p>
-            <p>Carne en hebras y queso Tybo rallado</p>
-            <p><strong>$420</strong></p>
-            <a href="#" class="btn btn-light botonmenu">Agregar</a>
-          </div>
-        </div>
-        <div id="cards" class="card bg-black" style="width: 15rem;">
-          <img src="./imagenes/arepa.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <p class="card-text"><strong>Arepa Catira</strong></p>
-            <p>Pollo en hebras con queso Tybo rallado</p>
-            <p><strong>$500</strong></p>
-            <a href="#" class="btn btn-light botonmenu">Agregar</a>
-          </div>
-        </div>
-        <div id="cards" class="card bg-black" style="width: 15rem;">
-          <img src="./imagenes/arepa.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <p class="card-text"><strong>Arepa Burguer</strong></p>
-            <p>Carne de Hamburguesa (200gr), lechuga, tomate y cebolla con papas fritas</p>
-            <p><strong>$690</strong></p>
-            <a href="#" class="btn btn-light botonmenu">Agregar</a>
-          </div>
-        </div>
-    </section>
-    <br>
-    <br> --> 
-    <!-- <figure class="text-center">
-      <blockquote class="blockquote">
-        <h2 class="texto">Hamburguesas</h2>
-      </blockquote>
-      <figcaption class="blockquote-footer">
-        <cite title="Source Title"></cite>Hamburguesas de Carne (Carne a base de Blend de Tapa de Asado y Roast Beef)
-        Todas las Hamburguesas incluyen papas fritas</cite>
-      </figcaption>
-    </figure>
-    <br>
-    <section class="container-fluid">
-      <div class="row justify-content-center">
-        <div id="cards" class="card bg-black" style="width: 15rem;">
-          <img src="./imagenes/burger.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h4 class="card-text"><strong>Hamburguesa Extrema Chelsea</strong></h4>
-            <p>Carne de Hamburguesa (400gr), panceta, queso, huevo frito, lechuga, tomate, cebolla, mayonesa, ketchup y
-              savor</p>
-            <p><strong>$1.190</strong></p>
-            <a href="#" class="btn btn-light botonmenu">Agregar</a>
-          </div>
-        </div>
-        <div id="cards" class="card bg-black" style="width: 15rem;">
-          <img src="./imagenes/burger.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h4 class="card-text"><strong>Hamburguesa Clásica</strong></h4>
-            <p>Carne de Hamburguesa (200gr), lechuga, tomate, cebolla, mayonesa, ketchup y savora</p>
-            <p><strong>$650</strong></p>
-            <a href="#" class="btn btn-light botonmenu">Agregar</a>
-          </div>
-        </div>
-        <div id="cards" class="card bg-black" style="width: 15rem;">
-          <img src="./imagenes/burger.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h4 class="card-text"><strong>Hamburguesa Gringa</strong></h4>
-            <p>Carne de Hamburguesa (200gr), doble cheddar, panceta, barbacoa, lechuga, tomate y cebolla</p>
-            <p><strong>$810</strong></p>
-            <a href="#" class="btn btn-light botonmenu">Agregar</a>
-          </div>
-        </div>
-    </section>
-    <section class="container-fluid">
-      <div class="row justify-content-center">
-        <div id="cards" class="card bg-black" style="width: 15rem;">
-          <img src="./imagenes/burger.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h4 class="card-text"><strong>Hamburguesa Porteñaa</strong></h4>
-            <p>Carne de Hamburguesa (200gr), queso tybo, chori, chimi, rucula y tomate</p>
-            <p><strong>$690</strong></p>
-            <a href="#" class="btn btn-light botonmenu">Agregar</a>
-          </div>
-        </div>
-        <div id="cards" class="card bg-black" style="width: 15rem;">
-          <img src="./imagenes/burger.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h4 class="card-text"><strong>Hamburguesa Gringa</strong></h4>
-            <p>Carne de Hamburguesa (200gr), queso tybo, chori, chimi, rucula y tomat</p>
-            <p><strong>$690</strong></p>
-            <a href="#" class="btn btn-light botonmenu">Agregar</a>
-          </div>
-        </div>
-        <div  id="cards" class="card bg-black" style="width: 15rem;">
-          <img src="./imagenes/burger.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h4 class="card-text"><strong>Hamburguesa Tana</strong></h4>
-            <p>Carne de Hamburguesa (200gr), doble cheddar, panceta, barbacoa, lechuga, tomate y cebolla</p>
-            <p><strong>$730</strong></p>
-            <a href="#" class="btn btn-light botonmenu">Agregar</a>
-          </div>
-        </div>
-    </section>
-    <br>
-    <br>
-    <div class="container">
-      <h2 class="text-white text-center texto"><strong>Sandwich</strong> </h2>
-    </div>
-    <br>
-    <section class="container-fluid">
-      <div class="row justify-content-center">
-        <div  id="cards" class="card bg-black" style="width: 15rem;">
-          <img src="./imagenes/burger.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h4 class="card-text"><strong>Pepito Mixto Gratinado</strong> </h4>
-            <p>Sandwich gratinado con pollo y carne cortada a cuchillo con lechuga, tomate, cebolla y aderezos</p>
-            <p><strong>$880</strong></p>
-            <a href="#" class="btn btn-light botonmenu">Agregar</a>
-          </div>
-        </div>
-        <div id="cards" class="card bg-black" style="width: 15rem;">
-          <img src="./imagenes/burger.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h4 class="card-text"><strong>Falafel al Plato</strong></h4>
-            <p>Croquetas de falafel, tabule, hummus y pan pita</p>
-            <p><strong>$490</strong></p>
-          </div>
-        </div>
-        <div class="card bg-black" style="width: 15rem;">
-          <img src="./imagenes/burger.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h4 class="card-text"><strong>Shawarma al Plato</strong></h4>
-            <p>Carne con aderezo arabe, tabule, hummus y pan pita</p>
-            <p><strong>$550</strong></p>
-          </div>
-        </div>
-    </section>
-    <div class="container">
-      <h2 class="text-white text-center texto"><strong>Ensaladas</strong> </h2>
-    </div>
-
-    <section class="container-fluid">
-      <div class="row justify-content-center">
-        <div class="card bg-black" style="width: 15rem;">
-          <img class="card-img-top" src="./imagenes/ensalada1.png" alt="tipo">
-          <h4 class="card-text"><strong>Ensalada Cesar de Pollo</strong></h4>
-          <p>Ensalada con suprema de pollo, croutons, queso sardo, lechuga y aderezo cesar</p>
-          <p><strong>$550</strong></p>
-        </div>
-      </div>
-    </section> -->
-
    <!-- Template Carrito -->
-    <div class="container">
-      <h4>Carrito de compras</h4>
-      <table class="table">
-        <thead>
-          <tr class="text-white">
-            <th scope="col">#</th>
-            <th scope="col">Item</th>
-            <th scope="col">Cantidad</th>
-            <th scope="col">Acción</th>
-            <th scope="col">Total</th>
-          </tr>
-        </thead>
-        <tbody id="items"></tbody>
-        <tfoot>
-          <tr id="footer">
-            <th scope="row" class="text-white" colspan="5">Carrito vacío - comience a comprar!</th>
-          </tr>
-        </tfoot>
-      </table>
+   <div class="container">
+    <h4>Carrito de compras</h4>
+    <table class="table">
+      <thead>
+        <tr class="text-white">
+          <th scope="col">#</th>
+          <th scope="col">Item</th>
+          <th scope="col">Cantidad</th>
+          <th scope="col">X</th>
+          <th scope="col">Total</th>
+        </tr>
+      </thead>
+      <tbody id="items"></tbody>
+      <tfoot>
+        <tr id="footer">
+          <th scope="row" class="text-white" colspan="5">Carrito Vacío - Comienza a elegir!</th>
+        </tr>
+      </tfoot>
+    </table>
 
-      <template id="template-footer">
-          <th class="text-white" scope="row" colspan="2">Total productos</th>
-          <td class="text-white">10</td>
-          <td>
-              <button class="btn btn-danger btn-sm" id="vaciar-carrito">
-                  vaciar todo
-              </button>
-          </td>
-          <td class="font-weight-bold text-white">$ <span>10</span></td>
-      </template>
-    
-    <template id="template-carrito">
-      <tr>
-        <th scope="row" class="text-white">id</th>
-        <td class="text-white">Café</td>
-        <td class="text-white">1</td>
+    <div>
+     <template id="template-footer">
+        <th class="text-white" scope="row" colspan="2">Total productos</th>
+        <td class="text-white">10</td>
         <td>
-            <button class="btn btn-info btn-sm">
-                +
-            </button>
-            <button class="btn btn-danger btn-sm">
-                -
+            <button class="btn btn-danger btn-sm" id="vaciar-carrito">
+                Vaciar Carrito
             </button>
         </td>
-        <td class="text-white">$ <span class="text-white">500</span></td>
-      </tr>
-    </template>
+        <td class="font-weight-bold text-white">$ <span>10</span></td>
+    </template>  
+    
+    <div class="d-grid gap-2 col-6 mx-auto">
+      <button class="btn btn-warning" type="button">Finalizar Compra</button>
+    </div>
+    </div>
+    
+  <template id="template-carrito">
+    <tr>
+      <th scope="row" class="text-white">id</th>
+      <td class="text-white">Café</td>
+      <td class="text-white">1</td>
+      <td>
+          <button id="agregar" class="btn btn-success btn-sm">
+              +
+          </button>
+          <button class="btn btn-danger btn-sm">
+              -
+          </button>
+      </td>
+      <td class="text-white">$ <span class="text-white">500</span></td>
+    </tr>
+  </template>
 
      <!-- Template Productos -->
      <template id="template-card">
-      <div class="col-12 mb-2 col-md-4">
-        <div class="card">
+      <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mb-2">
+        <div class="card ">
           <img src="" alt="" class="card-img-top">
           <div class="card-body bg-black text-white">
             <h5>Titulo</h5>
-            <h6>descripcion</h6>
+            <h6 class="descripcion">descripcion</h6>
             <p>precio</p>
-            <button class="btn btn-light">Agregar</button>
+            <button id="agregar" class="btn btn-light">Agregar</button>
           </div>
         </div>
       </div>
     </template>
 
   <!-- Botón de Pedido Anterior -->
-    <div>
+    <!-- <div>
       <a href="https://menu.fu.do/chelseabeer"><button class="boton"><strong>Hacer Pedido</strong></button></a>
     </div>
     <br>
-  </main>
-
+  </main> -->
+  <br>
+  <br>
   <!-- Footer -->
   <footer class="bg-black text-white container-fluid border-top border-2">
     <br>
@@ -357,9 +162,10 @@
     <br>
   </footer>
 
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   <!-- <script src="./js/modal.js" type="module"></script> -->
   <script src="./js/productos2.js" type="module"></script>
-  <!-- <script src="./js/carritoindex.js" type="module"></script> -->
+  <script src="./js/eventosMenu.js" type="module"></script>
 
 </body>
 </html>
