@@ -1,10 +1,21 @@
-// const agregar = document.getElementById(`#agregar`).addEventListener(`click`, e =>{
-//     Swal.fire ({
-//         title: `Agregado`,
-//         position: `botton-end`,
-//         text: `Tu producto fue agregado al carrito`,
-//         timer: 2000,
-//         showConfirmButton: false,
-//     })
-// })
+let button = document.getElementById("agregar");
+
+button.addEventListener("click", () => {
+    const Toast = Swal.mixin({
+            toast: true,
+            position: 'top-end',
+            showConfirmButton: false,
+            timer: 3000,
+            timerProgressBar: true,
+            didOpen: (toast) => {
+              toast.addEventListener('mouseenter', Swal.stopTimer)
+              toast.addEventListener('mouseleave', Swal.resumeTimer)
+            }
+          })
+          
+          Toast.fire({
+            icon: 'success',
+            title: 'Producto Agregado'
+          })
+});
 
