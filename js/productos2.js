@@ -52,28 +52,43 @@ const addCarrito = e => {
         setCarrito(e.target.parentElement); 
     }
     e.stopPropagation()
-}   
+}
 
 const setCarrito = objeto => {
     const producto = {
         id: objeto.querySelector(`.btn-light`).dataset.id,
         nombre: objeto.querySelector(`h5`).textContent,
         precio: objeto.querySelector(`p`).textContent,
-        cantidad: 1,
+        cantidad: 1
     }
 
     if (carrito.hasOwnProperty(producto.id)){
         producto.cantidad = carrito[producto.id].cantidad + 1
     }
+    const Toast = Swal.mixin({
+            toast: true,
+            position: 'top-end',
+            showConfirmButton: false,
+            timer: 3000,
+            timerProgressBar: true,
+            didOpen: (toast) => {
+                toast.addEventListener('mouseenter', Swal.stopTimer)
+                toast.addEventListener('mouseleave', Swal.resumeTimer)
+                }
+            })    
+                Toast.fire({
+                    icon: 'success',
+                    title: 'Producto Agregado'
+                  })
 
     carrito[producto.id] = {...producto}
     pintarCarrito()
 }
 
 const pintarCarrito = () => {
-    items.innerHTML = 
+    items.innerHTML = ``
     Object.values(carrito).forEach(producto => {
-        templateCarrito.querySelector(`th`).textContent = producto.id
+        templateCarrito.querySelector(`th`).textContent = producto.id 
         templateCarrito.querySelectorAll(`td`)[0].textContent = producto.nombre
         templateCarrito.querySelectorAll(`td`)[1].textContent = producto.cantidad
         templateCarrito.querySelector(`.btn-success`).dataset.id = producto.id
@@ -94,7 +109,7 @@ const pintarFooter = () =>{
     footer.innerHTML = ``
     if (Object.keys(carrito).length === 0) {
         footer.innerHTML = `
-        <th scope="row" class="text-white" colspan="5">Carrito Vacío - ¿Qué vas a comer hoy?</th>
+        <th scope="row" colspan="5">Carrito Vacío - ¿Qué vas a comer hoy?</th>
         `
         return
     }
@@ -113,6 +128,13 @@ const pintarFooter = () =>{
     btnVaciar.addEventListener(`click`, () => {
         carrito = {}
         pintarCarrito()
+        Swal.fire({
+            text: `Tu Carrito está Vacío`,
+            icon: 'warning',
+            timerProgressBar: true,
+            timer: 2000,
+            showConfirmButton: false,
+        })
     })
 }
 
@@ -138,3 +160,4 @@ const btnAccion = e => {
 
     e.stopPropagation()
 }
+

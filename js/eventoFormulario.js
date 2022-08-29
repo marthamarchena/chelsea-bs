@@ -30,7 +30,7 @@ function enviar (e){
         })
     }
 
-    if (valor1 === ""){
+    if (valor2 === ""){
         Swal.fire ({
             text: `Olvidaste Completar tu Email`,
             icon: `error`,

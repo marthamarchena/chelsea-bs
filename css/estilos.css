@@ -45,6 +45,14 @@
   margin: 15px;
 }
 
+.carritodrop {
+  position: fixed;
+  background-color: white;
+  border-radius: 15px;
+  right: 0;
+  padding: 15px;
+}
+
 @media only screen and (max-width: 420px) {
   .boton {
     background-color: #dac510;

@@ -106,7 +106,7 @@
     },
     {
         "id": 16,
-        "img": "./imagenes/shawarma.jpg",
+        "img": "./imagenes/ensalada.jpg",
         "nombre": "Ensalada Cesar de Pollo",
         "descripcion": "Ensalada con suprema de pollo, croutons, queso sardo, lechuga y aderezo cesar",
         "precio": 550
